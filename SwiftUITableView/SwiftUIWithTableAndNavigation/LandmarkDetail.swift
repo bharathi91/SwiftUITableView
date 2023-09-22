@@ -10,17 +10,21 @@ import SwiftUI
 
 struct LandmarkDetail: View {
     
+    @State private var navigationSelectionTag: Int? = 0
     var landmark: Landmark
     var body: some View {
-        ScrollView {
-            MapView(coordinate: landmark.locationCoordinate)
-                .edgesIgnoringSafeArea(.top)
-                .frame(height:300)
-                  
-            CircleImage(image:landmark.image)
+        //ScrollView
+       NavigationView {
+            ScrollView {
+
+                MapView(coordinate: landmark.locationCoordinate)
+                    .edgesIgnoringSafeArea(.top)
+                    .frame(height:300)
+                
+                CircleImage(image:landmark.image)
                     .offset(y:-130)
                     .padding(.bottom, -130)
-                  VStack(alignment:.leading) {
+                VStack(alignment:.leading) {
                     Text(landmark.name)
                         .font(.title)
                     HStack {
@@ -35,12 +39,32 @@ struct LandmarkDetail: View {
                         .font(.title2)
                     Text(landmark.description)
                 }//VStack
-                    .padding()
-            }//ScrollView
+                .padding()
+            }
+       }
+       .navigationBarItems(trailing: Button(action: {
+           print("Floating Button Click")
+       }, label: {
+           NavigationLink(destination: HomePage()) {
+                //Text("Open View")
+               Image(systemName: "plus")
+            }
+       }))
+//        .navigationBarItems(trailing:
+//                                Button(action: {
+//            print("Edit button pressed...")
+//          _ =  NavigationLink(destination: HomePage()) {
+//                Text("Do Something")
+//            }
+//           
+//        }) {
+//            Image(systemName: "plus")
+//        }
+//        )
         .navigationTitle(landmark.name)
         .navigationBarTitleDisplayMode(.inline)
-        }
     }
+}
 
 
 struct LandmarkDetail_Preview: PreviewProvider {

@@ -84,5 +84,115 @@
             landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F2F0C87-4089-4907-8997-7741DBD38828"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUITableView/HomePage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68AF58C8-CA00-411A-BDA1-FB9F231C15DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUITableView/MoviesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "fetchMoviesNew()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "68AF58C8-CA00-411A-BDA1-FB9F231C15DC - 464fa66a8303383f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUITableView.MoviesViewModel.fetchMoviesNew() -&gt; ()"
+                  moduleName = "SwiftUITableView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bhakumar20/SwiftUITableView/SwiftUITableView/MoviesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "377">
+               </Location>
+               <Location
+                  uuid = "68AF58C8-CA00-411A-BDA1-FB9F231C15DC - 31fa3e01661889f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SwiftUITableView.MoviesModel) -&gt; () in SwiftUITableView.MoviesViewModel.fetchMoviesNew() -&gt; ()"
+                  moduleName = "SwiftUITableView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bhakumar20/SwiftUITableView/SwiftUITableView/MoviesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "174">
+               </Location>
+               <Location
+                  uuid = "68AF58C8-CA00-411A-BDA1-FB9F231C15DC - 31fa3e01661889f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SwiftUITableView.MoviesModel) -&gt; () in SwiftUITableView.MoviesViewModel.fetchMoviesNew() -&gt; ()"
+                  moduleName = "SwiftUITableView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bhakumar20/SwiftUITableView/SwiftUITableView/MoviesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "279">
+               </Location>
+               <Location
+                  uuid = "68AF58C8-CA00-411A-BDA1-FB9F231C15DC - 31fa3e01661889f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SwiftUITableView.MoviesModel) -&gt; () in SwiftUITableView.MoviesViewModel.fetchMoviesNew() -&gt; ()"
+                  moduleName = "SwiftUITableView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bhakumar20/SwiftUITableView/SwiftUITableView/MoviesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "332">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0EA05FB-78A2-4435-9814-02A7FA47FCD2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUITableView/HomePage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "init(movies:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

@@ -14,7 +14,9 @@ class DataSource: ObservableObject {
 struct ContentView: View {
     
     var body: some View {
-       LandmarkList()
+        NavigationView {
+            LandmarkList()
+        }
     }
 }
 
